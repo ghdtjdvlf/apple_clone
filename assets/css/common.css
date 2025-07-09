@@ -1,0 +1,74 @@
+@import url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/subsets/AppleSDGothicNeo-dynamic-subset.css');
+
+:root {
+  --black-01: #1d1d1f;
+  --blue-01: #0071e3;
+  --blue-02: #1482f1;
+  --white-01: #fff;
+  --grey-01: #6e6e73;
+  --content-height: 692px;
+  --columns: 2
+}
+
+
+
+body {
+  font-family: "San Francisco", "Apple SD Gothic Neo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.button-primary {
+  display: inline-block;
+  margin-top: 19px;
+  padding: 11px 21px;
+  color: var(--white-01);
+  background: var(--blue-01);
+  border-radius: 100px;
+}
+
+.button-primary:hover {
+  background: var(--blue-02);
+}
+
+.button-tertiary {
+  display: inline-block;
+  margin-top: 19px;
+  padding: 11px 21px;
+  color: var(--blue-01);
+  background: var(--white-01);
+  border: solid 1px var(--blue-01);
+  border-radius: 100px;
+  margin-left: 13px;
+}
+
+.button-tertiary:hover {
+  color: var(--white-01);
+  background: var(--blue-02);
+}
+
+.ai-gradient {
+  margin-top: 25px;
+  display: inline-block;
+  background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* 크롬, 사파리 등 Webkit 브라우저용 */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  /* Webkit에서 텍스트 투명하게 */
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.ai-callout {
+  font-size: 14px;
+  line-height: 1.3572;
+  letter-spacing: -.0.72em;
+  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #6e6e73;
+}
