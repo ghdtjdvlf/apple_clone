@@ -1,5 +1,6 @@
 @import url('/assets/css/common.css');
 
+
 section.heros {
   position: relative;
   margin-bottom: 12px;
@@ -405,4 +406,37 @@ section.appleTv-slide {
   }
 }
 
+}
+
+@media (max-width : 1068px) {
+  .headline{
+    font-size: 48px !important;
+  }
+  .subhead{
+    font-size: 24px !important;
+  }
+}
+@media (max-width : 734px) {
+  
+  .headline{
+    font-size: 32px !important;
+  }
+  .subhead{
+    font-size: 19px !important;
+  }
+
+  h2.headline {
+    img {
+    width: 144px;
+    }
+
+  }
+}
+@media (max-width : 734px) {
+  .headline{
+    font-size: 32px !important;
+  }
+  .subhead{
+    font-size: 19px !important;
+  }
 }
