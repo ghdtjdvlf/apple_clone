@@ -44,6 +44,9 @@ nav ul.gnb a {
   color: rgba(0, 0, 0, 0.8);
   padding: 0 10px;
 }
+nav ul.gnb .obj {
+  display: flex;
+}
 nav .gnb-submenu-container {
   position: absolute;
   top: 44px;
