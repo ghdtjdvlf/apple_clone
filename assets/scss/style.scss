@@ -145,7 +145,7 @@ nav {
 section.heros {
   position: relative;
   margin-bottom: 12px;
-  margin-top: 44px;
+  z-index: -1;
   .iphone-family {
     .module-content {
       height: var(--content-height);
